@@ -1,0 +1,83 @@
+body, html {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  position: absolute;
+  padding: 1em;
+  z-index: 30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: calc(100% -2em);
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  padding: 1em;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.wrapper section {
+  padding: 3em;
+}
+
+.wrapper section h1, .wrapper section h2, .wrapper section .read-btn {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.wrapper section h2 {
+  font-size: 1.4em;
+}
+
+.wrapper section .read-btn {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background: url(../images/arrow.svg) no-repeat;
+  background-size: 8px;
+  background-position: 0 1px;
+  padding-left: 1em;
+}
+
+.wrapper section .primary {
+  padding: 1.5em;
+  background: position;
+  border: 1px solid gray;
+  display: inline-block;
+  margin-top: 3em;
+}
+/*# sourceMappingURL=style.css.map */
