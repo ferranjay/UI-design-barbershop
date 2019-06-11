@@ -21,6 +21,10 @@ header {
   background: white;
 }
 
+.logo {
+  color: black;
+}
+
 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -81,6 +85,7 @@ li a {
   border: 1px solid gray;
   display: inline-block;
   margin-top: 3em;
+  background-color: white;
 }
 
 .wrapper section .clip {
@@ -89,7 +94,7 @@ li a {
 
 .wrapper section.hero {
   padding-top: 8em;
-  background: url(../images/hero.jpg);
+  background: url(../images/4.jpg);
   background-size: cover;
 }
 
@@ -97,11 +102,12 @@ li a {
   width: 70%;
   font-size: 1.2em;
   margin-bottom: 0;
+  color: white;
 }
 
 .wrapper section.hero h1 {
-  font-size: 2.2em;
-  color: #FFD576;
+  font-size: 5em;
+  color: white;
   font-weight: bold;
   font-family: 'Holtwood One SC', serif;
 }
@@ -112,7 +118,7 @@ li a {
 }
 
 .wrapper section.sidebar {
-  background-color: #FFD576;
+  background-color: #ffb834;
 }
 
 .wrapper section.sidebar .read-btn {
@@ -146,6 +152,9 @@ li a {
 @media only screen and (min-width: 1020px) {
   header {
     background: none;
+  }
+  header .logo {
+    color: white;
   }
   .wrapper {
     -ms-grid-columns: 70% auto;

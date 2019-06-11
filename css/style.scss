@@ -1,4 +1,5 @@
-$primary-color: #FFD576;
+$primary-color: rgb(255, 255, 255);
+$seconday-color: rgb(255, 184, 52);
 $submit-bg-color: black;
 $submit-color: white;
 
@@ -19,8 +20,11 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    background: white;
+    background: $primary-color;
 }
+    .logo {
+        color: $submit-bg-color;
+    }
 
     a {
         text-decoration: none;
@@ -76,6 +80,7 @@ header {
             border: 1px solid gray;
             display: inline-block;
             margin-top: 3em;
+            background-color: $submit-color;
         }
 
         .clip {
@@ -85,17 +90,18 @@ header {
 
     section.hero {
         padding-top: 8em;
-        background: url(../images/hero.jpg);
+        background: url(../images/4.jpg);
         background-size: cover;
 
         p {
             width: 70%;
             font-size: 1.2em;
             margin-bottom: 0;
+            color: white;
         }
 
         h1 {
-            font-size: 2.2em;
+            font-size: 5em;
             color: $primary-color;
             font-weight: bold;
             font-family: 'Holtwood One SC', serif;
@@ -108,7 +114,7 @@ header {
     }
 
     section.sidebar {
-        background-color: $primary-color;
+        background-color: $seconday-color;
 
         .read-btn {
             margin-top: 2em;
@@ -150,6 +156,10 @@ header {
     
     header {
         background: none;
+
+        .logo {
+            color: $primary-color;
+        }
     }
 
     .wrapper {
